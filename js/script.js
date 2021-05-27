@@ -18,7 +18,4 @@ if (age < 18){
     price = price - price * 0.4;
 }
 
-price = price.toFixed(2);
-// console.log(price);
-
-document.getElementById('price').innerHTML = price + ' &euro;';
+document.getElementById('price').innerHTML = price.toFixed(2) + ' &euro;';
