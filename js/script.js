@@ -4,13 +4,13 @@ var nome = prompt('Ciao, come ti chiami?');
 document.getElementById('name').innerHTML = nome.toUpperCase();
 
 var km = prompt('Quanti chilometri vuoi percorrere?');
-document.getElementById('distance').innerHTML = km + "km"
+document.getElementById('distance').innerHTML = km + " km"
 
 var age = parseInt(prompt('Quanti anni hai?'));
-console.log(age);
+// console.log(age);
 
 var price = km * 0.21;
-console.log(price);
+// console.log(price);
 
 if (age < 18){
     price = price - price * 0.2;
@@ -18,7 +18,7 @@ if (age < 18){
     price = price - price * 0.4;
 }
 
-var price = price.toFixed(2);
-console.log(price);
+price = price.toFixed(2);
+// console.log(price);
 
 document.getElementById('price').innerHTML = price + ' &euro;';
