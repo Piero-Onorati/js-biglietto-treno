@@ -10,16 +10,14 @@ console.log(age);
 var price = km * 0.21;
 console.log(price);
 
-var finalPrice
+// var finalPrice
 
 if (age < 18){
-    finalPrice = price * 0.2
+    price = price * 0.2
 } else if (age >= 65) {
-    finalPrice = price * 0.4
-} else {
-    finalPrice = price
+    price = price * 0.4
 }
 
-var finalPrice = finalPrice.toFixed(2)
+var price = price.toFixed(2)
 
-console.log(finalPrice)
+console.log(price)
