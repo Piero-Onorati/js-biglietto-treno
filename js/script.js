@@ -11,12 +11,12 @@ var price = km * 0.21;
 console.log(price);
 
 if (age < 18){
-    price = price - price * 0.2
+    price = price - price * 0.2;
 } else if (age >= 65) {
-    price = price - price * 0.4
+    price = price - price * 0.4;
 }
 
-var price = price.toFixed(2)
-console.log(price)
+var price = price.toFixed(2);
+console.log(price);
 
-document.getElementById('price').innerHTML = price
+document.getElementById('price').innerHTML = price;
