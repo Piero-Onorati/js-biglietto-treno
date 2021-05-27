@@ -4,7 +4,7 @@ var nome = prompt('Ciao, come ti chiami?');
 document.getElementById('name').innerHTML = nome.toUpperCase();
 
 var km = prompt('Quanti chilometri vuoi percorrere?');
-document.getElementById('distance').innerHTML = km + " km"
+document.getElementById('distance').innerHTML = km + " km";
 
 var age = parseInt(prompt('Quanti anni hai?'));
 // console.log(age);
