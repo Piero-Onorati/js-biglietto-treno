@@ -1,8 +1,6 @@
-
 * {
     box-sizing:border-box;
 }
-
 
 body {
     background-color: lightgray;
@@ -20,7 +18,7 @@ body {
 	position: relative;
 }
 	
-/* label */
+/* ticket-label */
 
 .bp-card_label {
     position:absolute;
@@ -81,9 +79,8 @@ body {
     top:0;
     left:calc(130px / 3.1 );
 }
-
 	
-/* // content */ 
+/* ticket-content */ 
 
 .bp-card_content {
     position: relative;
@@ -93,7 +90,6 @@ body {
     width:calc(100% - 130px);
     margin-left:calc(130px - 1px);
     padding:35px;
-
 }
 
 .company{
@@ -104,6 +100,8 @@ body {
 #logo{
     width: 25px;
 }
+
+/* name + distance */
 
 h4 {
     font-size:40px;
@@ -128,7 +126,7 @@ span {
     color:#A8A8A8;
 }
 
-.distance{
+.distance-km{
     font-size: 20px;
     color:#A8A8A8;
 }
@@ -144,6 +142,7 @@ li {
     padding-right:30px;
 }
 
+/* price */
 
 a.price {
     color:#6ed663;
@@ -163,7 +162,7 @@ a.price {
 		position: relative;
     }
 		
-    /* label */
+    /* ticket-label */
     .bp-card_label {
         top:0;
         left: 0;
@@ -175,7 +174,6 @@ a.price {
     }
 			
 	/* sides */
-
     .bp-card_label::after, .bp-card_label::before {
         transform:rotate(90deg);
         transform-origin: top left;
@@ -211,15 +209,14 @@ a.price {
     }
 
 		
-    /* content */
-
+    /* ticket-content */
     .bp-card_content {
         margin-left:0;
         width:100%;
         padding:3% 5% 5% 5%;
     }
 			
-	/* title */
+	/* name + distance */
     h4 {
         font-size:32px;
         margin:0;
@@ -243,8 +240,7 @@ a.price {
         padding-right:30px;
         margin-bottom:5px;
     }
-
-			
+		
 	/* price */
     a.price {
         position:relative;
